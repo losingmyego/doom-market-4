@@ -41,12 +41,11 @@ export const customTheme = createTheme(theme, {
     x4: '16px',
   },
   ease,
-  border: {
-    width: {
-      none: '0',
+  borderWidth: {
+      none: '0px',
       thin: '0px',
       normal: '2px',
-      thick: '4px', }}
+      thick: '4px', }
 })
 
 export const [baseTheme, vars] = createTheme({

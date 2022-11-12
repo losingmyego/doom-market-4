@@ -23,7 +23,7 @@ export const trailingArrow = style({
       content: '↗',
       fontFamily: 'system-ui',
       opacity: ' 0.8',
-      fontSize: '0.9em',
+      fontSize: '0.5em',
       position: 'absolute',
       right: '-1em',
       top: '-0.1em',

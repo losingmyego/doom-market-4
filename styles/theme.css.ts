@@ -5,8 +5,8 @@ import { createTheme, style } from '@vanilla-extract/css'
 // Valid colour values are short and long hex codes (#00ff00) (#f00)
 const { colors, shadows } = colorTheme({
   foreground: '#FF1640',
-  background: '#000000',
-  accent: '#16CE81',
+  background: '#000',
+  accent: '#FF1640',
   positive: '#92ea22',
 })
 

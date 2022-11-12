@@ -17,6 +17,8 @@ a {
 
 a:hover {
   opacity: 0.7;
+  color: #000;
+  border-color: #16CE81 ;
 }
 
 * {
@@ -30,7 +32,7 @@ a:hover {
 }
 
 .zord-mint-details .zord-text-paragraph-sm {
-  font-size: var(--_1yv16yc6i); /* font-size: 18px */
+  font-size: var(--_1yv16yc6i); /* font-size: 12px */
 }
 
 .zord-text-eyebrow {

@@ -73,7 +73,7 @@ export const menuItem = style([
 
 export const mintCounterInput = style([
   {
-    width: '2em',
+    width: '3em',
     minWidth: 0,
     outline: 0,
     selectors: {
@@ -101,7 +101,7 @@ export const priceDateHeading = style({
   fontWeight: 500,
   fontSize: '15px',
   lineHeight: '24px',
-  color: vars.color.primary
+  color: '#ffffff'
 })
 
 export const maxWidth = style({

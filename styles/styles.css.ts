@@ -90,7 +90,7 @@ export const mintCounterInput = style([
     backgroundColor: 'transparent',
     borderColor: 'transparent',
     borderRadius: 'tiny',
-    borderWidth: 'tiny',
+    borderWidth: 'thin',
     borderStyle: 'solid',
     textAlign: 'center',
     height: 'x11',

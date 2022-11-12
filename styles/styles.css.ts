@@ -73,7 +73,7 @@ export const menuItem = style([
 
 export const mintCounterInput = style([
   {
-    width: '3em',
+    width: '2em',
     minWidth: 0,
     outline: 0,
     selectors: {
@@ -99,8 +99,8 @@ export const mintCounterInput = style([
 
 export const priceDateHeading = style({
   fontWeight: 500,
-  fontSize: '30px',
-  lineHeight: '40px',
+  fontSize: '15px',
+  lineHeight: '24px',
   color: vars.color.primary
 })
 
@@ -116,12 +116,12 @@ export const maxWidth = style({
 })
 
 export const border = style({
-  border: `1px solid ${vars.color.border}`,
+  border: `.5px solid ${vars.color.border}`,
   borderRadius: 0,
 })
 
 export const header = style({
-  borderBottom: `1px solid ${vars.color.border}`,
+  borderBottom: `.5px solid ${vars.color.border}`,
 })
 
 export const heroImage = style({

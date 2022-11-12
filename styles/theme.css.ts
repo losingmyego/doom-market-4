@@ -29,18 +29,24 @@ export const customTheme = createTheme(theme, {
   },
   radii: {
     ...radii,
-    small: '12px',
-    normal: '12px',
+    tiny: '0px'
+    small: '0px',
+    normal: '0px',
   },
   shadows,
   size,
   space: {
     ...space,
-    x3: '24px',
-    x4: '20px',
+    x3: '18px',
+    x4: '16px',
   },
   ease,
-  border,
+  border: {
+    width: {
+      none: '0',
+      thin: '0px',
+      normal: '2px',
+      thick: '4px', }}
 })
 
 export const [baseTheme, vars] = createTheme({

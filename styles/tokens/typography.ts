@@ -16,9 +16,9 @@ export const fontSize = {
   35: '24px',
   40: '24px',
   48: '24px',
-  50: '40px',
-  65: '40px',
-  80: '80px',
+  50: '24px',
+  65: '24px',
+  80: '24px',
   unset: 'unset',
 }
 
@@ -26,24 +26,24 @@ export const lineHeight = {
   0: '0',
   14: '22px',
   20: '22px',
-  24: '28px',
-  25: '28px',
+  24: '22px',
+  25: '22px',
   30: '28px',
   34: '34px',
   40: '40px',
   50: '40px',
-  55: '48px',
-  65: '48px',
-  70: '48px',
-  85: '48px',
-  95: '95px',
+  55: '40px',
+  65: '40px',
+  70: '40px',
+  85: '40px',
+  95: '40px',
   unset: 'unset',
 }
 
 export const fontWeight = {
-  paragraph: '400',
-  heading: '500',
-  label: '500',
-  display: '500',
+  paragraph: '300',
+  heading: '400',
+  label: '400',
+  display: '400',
 }
 

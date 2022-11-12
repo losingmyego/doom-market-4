@@ -6,7 +6,7 @@ import { createTheme, style } from '@vanilla-extract/css'
 const { colors, shadows } = colorTheme({
   foreground: '#FF1640',
   background: '#000',
-  accent: '#FF1640',
+  accent: '#16CE81',
   positive: '#92ea22',
 })
 

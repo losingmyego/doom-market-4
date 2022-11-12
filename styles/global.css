@@ -41,7 +41,7 @@ a:hover {
 
 .zord-mint-status__number-input {
   background-color: var(--_1yv16yc5i); /* color: accent */
-  border-radius: var(--_1yv16yc7l); /* borderRadius: regular */
+  border-radius: var(--_1yv16yc7l); /* borderRadius: none */
   padding: 5px;
 }
 .zord-mint-status__number-input input,

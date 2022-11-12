@@ -90,7 +90,7 @@ export const mintCounterInput = style([
     backgroundColor: 'transparent',
     borderColor: 'transparent',
     borderRadius: 'small',
-    borderWidth: 'normal',
+    borderWidth: 'small',
     borderStyle: 'solid',
     textAlign: 'center',
     height: 'x11',
@@ -98,7 +98,7 @@ export const mintCounterInput = style([
 ])
 
 export const priceDateHeading = style({
-  fontWeight: 500,
+  fontWeight: 400,
   fontSize: '15px',
   lineHeight: '24px',
   color: '#ffffff'
@@ -116,19 +116,19 @@ export const maxWidth = style({
 })
 
 export const border = style({
-  border: `.5px solid ${vars.color.border}`,
+  border: `.25px solid ${vars.color.border}`,
   borderRadius: 0,
 })
 
 export const header = style({
-  borderBottom: `.5px solid ${vars.color.border}`,
+  borderBottom: `.25px solid ${vars.color.border}`,
 })
 
 export const heroImage = style({
   objectFit: 'contain',
   maxHeight: '45vh',
   maxWidth: '100%',
-  borderRadius: '12px',
+  borderRadius: '0px',
   overflow: 'hidden',
   margin: 'auto',
   '@media': {

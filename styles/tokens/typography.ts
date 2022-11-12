@@ -41,8 +41,8 @@ export const lineHeight = {
 }
 
 export const fontWeight = {
-  paragraph: '300',
-  heading: '400',
+  paragraph: '200',
+  heading: '500',
   label: '400',
   display: '400',
 }

@@ -29,7 +29,7 @@ export const customTheme = createTheme(theme, {
   },
   radii: {
     ...radii,
-    tiny: '0px'
+    tiny: '0px',
     small: '0px',
     normal: '0px',
   },
@@ -41,11 +41,7 @@ export const customTheme = createTheme(theme, {
     x4: '16px',
   },
   ease,
-  borderWidth: {
-      none: '0px',
-      thin: '0px',
-      normal: '2px',
-      thick: '4px', }
+  border,
 })
 
 export const [baseTheme, vars] = createTheme({
